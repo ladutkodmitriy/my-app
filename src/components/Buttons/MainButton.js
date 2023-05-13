@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const MainButton = (props) => {
   return (
-    <ButtonContainer>
+    <ButtonContainer style={props.style}>
       <ButtonText>{props.text}</ButtonText>
       {props?.imageUrl && <ButtonImage src={props?.imageUrl} />}
     </ButtonContainer>

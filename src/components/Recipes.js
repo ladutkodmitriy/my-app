@@ -1,12 +1,12 @@
 import React from 'react'
-import PhotoRecipes from '../assets/PhotoRecipes.png'
 import styled from 'styled-components'
 import BadgeImage from '../assets/Badge.png'
-import ScrollImage from '../assets/scroll.svg'
-import TimerImage from '../assets/Timer.svg'
-import ForkKnifeImage from '../assets/ForkKnife.svg'
-import PersonImage from '../assets/User.png'
 import CircleImage from '../assets/Circle.svg'
+import ForkKnifeImage from '../assets/ForkKnife.svg'
+import PhotoRecipes from '../assets/PhotoRecipes.png'
+import TimerImage from '../assets/Timer.svg'
+import PersonImage from '../assets/User.png'
+import ScrollImage from '../assets/scroll.svg'
 import MainButton from './Buttons/MainButton'
 
 const Recipes = () => {
@@ -52,7 +52,8 @@ const Recipes = () => {
 export default Recipes
 
 const Container = styled.div`
-  max-width: 1280px;
+  width: 1280px;
+  height: 640px;
   margin: 0 auto;
   border-radius: 50px;
   overflow: hidden;
@@ -62,9 +63,9 @@ const Container = styled.div`
 `
 
 const Content = styled.div`
-  flex: 1;
   background: #e7fafe;
   display: flex;
+
   justify-content: flex-start;
   align-items: flex-start;
   padding: 50px;
@@ -72,7 +73,7 @@ const Content = styled.div`
 `
 
 const Image = styled.img`
-  flex: 1;
+  /* flex: 1; */
   object-fit: contain;
 `
 
