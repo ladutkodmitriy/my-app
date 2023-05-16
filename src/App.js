@@ -8,6 +8,8 @@ import Categories from './components/Categories'
 import SimpleTasty from './components/SimpleTasty'
 import RecipeItem from './components/RecipeItem'
 import ChefInformation from './components/ChefInformation'
+import Instagram from './components/Instagram'
+import DeliciousRecipes from './components/DeliciousRecipes'
 function App() {
   return (
     <>
@@ -16,6 +18,8 @@ function App() {
       <Categories />
       <SimpleTasty />
       <ChefInformation />
+      <Instagram />
+      <DeliciousRecipes />
     </>
   )
 }

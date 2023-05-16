@@ -23,6 +23,7 @@ const ButtonContainer = styled.div`
 
 const ButtonText = styled.div`
   font-family: 'Inter';
+  white-space: nowrap;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
